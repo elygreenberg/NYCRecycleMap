@@ -70,7 +70,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2015. Erg Process Energy, LLC." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYL-uz-rOb">
-                                <rect key="frame" x="16" y="213.5" width="322" height="20.5"/>
+                                <rect key="frame" x="16" y="262" width="322" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXt-hB-qxf">
+                                <rect key="frame" x="16" y="197" width="50.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location services must be enabled for the map to determine your location." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHy-rN-5vz">
+                                <rect key="frame" x="16" y="225" width="571" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -78,12 +90,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jYL-uz-rOb" firstAttribute="leading" secondItem="o6M-PI-3cj" secondAttribute="leadingMargin" id="FFS-1n-xUE"/>
+                            <constraint firstItem="HHy-rN-5vz" firstAttribute="top" secondItem="oXt-hB-qxf" secondAttribute="bottom" constant="8" id="HJN-qy-QRb"/>
                             <constraint firstItem="Ggn-Wp-89r" firstAttribute="leading" secondItem="o6M-PI-3cj" secondAttribute="leadingMargin" id="J3e-dj-SVR"/>
                             <constraint firstItem="XJH-ka-8TF" firstAttribute="top" secondItem="Ggn-Wp-89r" secondAttribute="bottom" constant="8" id="SDy-hH-sRg"/>
                             <constraint firstItem="Ggn-Wp-89r" firstAttribute="top" secondItem="KFl-Cz-zRS" secondAttribute="bottom" constant="8" id="Sk3-CZ-Pwk"/>
-                            <constraint firstItem="jYL-uz-rOb" firstAttribute="top" secondItem="XJH-ka-8TF" secondAttribute="bottom" constant="32" id="dgV-Nh-OfS"/>
+                            <constraint firstItem="oXt-hB-qxf" firstAttribute="leading" secondItem="o6M-PI-3cj" secondAttribute="leadingMargin" id="Zyq-PB-eDx"/>
+                            <constraint firstItem="jYL-uz-rOb" firstAttribute="top" secondItem="HHy-rN-5vz" secondAttribute="bottom" constant="16" id="czl-xq-MzH"/>
                             <constraint firstItem="XJH-ka-8TF" firstAttribute="leading" secondItem="o6M-PI-3cj" secondAttribute="leadingMargin" id="h5X-0r-dba"/>
+                            <constraint firstItem="HHy-rN-5vz" firstAttribute="leading" secondItem="o6M-PI-3cj" secondAttribute="leadingMargin" id="iXO-8d-61W"/>
+                            <constraint firstItem="jYL-uz-rOb" firstAttribute="leading" secondItem="o6M-PI-3cj" secondAttribute="leadingMargin" id="jLg-Za-HKp"/>
+                            <constraint firstItem="oXt-hB-qxf" firstAttribute="top" secondItem="XJH-ka-8TF" secondAttribute="bottom" constant="16" id="qX9-Yl-Th8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XJH-ka-8TF" secondAttribute="trailing" id="zJI-fz-TlD"/>
                         </constraints>
                     </view>
